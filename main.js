@@ -13,4 +13,7 @@ var app = http.createServer(function (request, response) {
   response.writeHead(200);
   response.end(fs.readFileSync(__dirname + url));
 });
-app.listen(3000);
+
+console.log("실행포트 번호는 : " + process.env.PORT);
+
+app.listen(process.env.PORT || 3000);
