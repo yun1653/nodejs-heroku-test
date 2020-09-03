@@ -1,0 +1,15 @@
+{
+  "name": "heroku_test_ysj",
+  "version": "1.0.0",
+  "description": "테스트용",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "놀자"
+  ],
+  "author": "",
+  "license": "ISC"
+}
